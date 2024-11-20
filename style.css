@@ -1,0 +1,14 @@
+#shirt-mockup {
+  width: 400px;
+  height: 400px;
+  background-image: url('snapshot3.png'); /* Replace with your mockup image */
+  background-size: cover;
+  position: relative;
+}
+
+#uploaded-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1); /* Apply initial scale here */
+}
